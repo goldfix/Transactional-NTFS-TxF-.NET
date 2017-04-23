@@ -1,9 +1,3 @@
-More info:
-
- * http://msdn.microsoft.com/en-us/library/windows/desktop/bb968806%28v=vs.85%29.aspx
- * http://msdn.microsoft.com/en-us/library/windows/desktop/aa363764%28v=vs.85%29.aspx
-
-
 ### Feature ###
 
 Currently, library allows to perform the following operations:
@@ -34,6 +28,11 @@ Currently, library allows to perform the following operations:
 * Support Registry transaction
 
 
+### More info ###
+
+ * http://msdn.microsoft.com/en-us/library/windows/desktop/bb968806%28v=vs.85%29.aspx
+ * http://msdn.microsoft.com/en-us/library/windows/desktop/aa363764%28v=vs.85%29.aspx
+ 
 _**[Small donation is appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SLJ677V9KN26C)**_ :-)
 
 ![Small donation is appreciated](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)
