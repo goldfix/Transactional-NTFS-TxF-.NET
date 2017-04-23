@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{929CAF0F-3ED9-4E19-8A08-B5E7374746DE}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		System.IO.Transactions.TxF.vsmdi = System.IO.Transactions.TxF.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxF", "TxF\TxF.csproj", "{F48E60BA-69B4-44BF-A190-8AE276A1BA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxF.Test", "TxF.Test\TxF.Test.csproj", "{11464BB2-C705-448A-A016-20F31A49D805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48E60BA-69B4-44BF-A190-8AE276A1BA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48E60BA-69B4-44BF-A190-8AE276A1BA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48E60BA-69B4-44BF-A190-8AE276A1BA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48E60BA-69B4-44BF-A190-8AE276A1BA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11464BB2-C705-448A-A016-20F31A49D805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11464BB2-C705-448A-A016-20F31A49D805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11464BB2-C705-448A-A016-20F31A49D805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11464BB2-C705-448A-A016-20F31A49D805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TxF.Test\\TxF.Test.csproj
+		SccProjectName1 = TxF.Test
+		SccLocalPath1 = TxF.Test
+		SccProjectUniqueName2 = TxF\\TxF.csproj
+		SccProjectName2 = TxF
+		SccLocalPath2 = TxF
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = System.IO.Transactions.TxF.vsmdi
+	EndGlobalSection
+EndGlobal
