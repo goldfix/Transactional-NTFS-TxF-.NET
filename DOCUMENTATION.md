@@ -10,7 +10,7 @@ using (System.Transactions.TransactionScope ts = new System.Transactions.Transac
 }
 ```
 
-### Transaction (with using) ###
+### Transaction (*with using*) ###
 
 Example with transaction:
 
