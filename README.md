@@ -9,19 +9,19 @@ More info:
 Currently, library allows to perform the following operations:
 
 * Directory
-** create directory
-** delete directory
-** symbolic link transacted
+    * create directory
+    * delete directory
+    * symbolic link transacted
 
 * File
-** create files
-** write files
-** read files
-** delete files
-** search files
-** get and set attributes
-** hard link transacted
-** symbolic link transacted
+    * create files
+    * write files
+    * read files
+    * delete files
+    * search files
+    * get and set attributes
+    * hard link transacted
+    * symbolic link transacted
 
 - Transactions
 
