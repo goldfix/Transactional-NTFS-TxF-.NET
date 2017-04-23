@@ -1,6 +1,6 @@
-!! Transaction Scope
+### Transaction Scope ###
 
-* Example with *transaction scope*:
+Example with *transaction scope*:
 
 ```
 using (System.Transactions.TransactionScope ts = new System.Transactions.TransactionScope())
@@ -10,10 +10,11 @@ using (System.Transactions.TransactionScope ts = new System.Transactions.Transac
 }
 ```
 
-!! Transaction (with using)
+### Transaction (with using) ###
 
-* Example with transaction:
-{code:c#}
+Example with transaction:
+
+```
 using (System.IO.Transactions.Transaction transaction = new System.IO.Transactions.Transaction())
 {
     try
@@ -30,12 +31,13 @@ using (System.IO.Transactions.Transaction transaction = new System.IO.Transactio
     finally
     { }
 }  
-{code:c#}
+```
 
-!! Transaction
+### Transaction ###
 
-* Example with transaction:
-{code:c#}
+Example with transaction:
+
+```
 System.IO.Transactions.Transaction transaction = new System.IO.Transactions.Transaction();
 
 try
@@ -53,12 +55,13 @@ finally
 {
     transaction.Close();
 }
-{code:c#}
+```
 
-!! Transaction with DB
+### Transaction with DB ###
 
-* Example with transaction scope and database:
-{code:c#}
+Example with transaction scope and database:
+
+```
 using (cnDb)
 {
     cnDb.Open();
@@ -78,4 +81,4 @@ using (cnDb)
         { }
     }
 }
-{code:c#}
+```
