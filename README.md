@@ -21,6 +21,7 @@ Currently, library allows to perform the following operations:
     * support manually manage transaction (commit / rollback)
     * support transaction scope
 
+Here some **[example](DOCUMENTATION.md)**.
 
 ### To Do ###
 
